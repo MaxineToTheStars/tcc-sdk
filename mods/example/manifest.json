@@ -1,0 +1,13 @@
+{
+  "authors": [
+	{
+	  "name": "TERRA Coding Club",
+	  "url": "https://terrawolves.com"
+	}
+  ],
+  "mod": {
+	"uuid": "0",
+	"name": "My Cool Mod",
+	"description": "Just a cool mod!"
+  }
+}

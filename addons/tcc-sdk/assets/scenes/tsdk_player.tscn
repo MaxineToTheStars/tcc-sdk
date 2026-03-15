@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://vuuobb3sc1xr"]
+
+[ext_resource type="Texture2D" uid="uid://dbp0x5gm4w8ya" path="res://addons/tcc-sdk/assets/images/player_sprite.png" id="1_af6lg"]
+[ext_resource type="Script" uid="uid://cjfjwbqva7wau" path="res://addons/tcc-sdk/src/core/player.gd" id="1_muwn8"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_muwn8"]
+radius = 16.0
+height = 64.0
+
+[node name="TsdkPlayer" type="CharacterBody2D" unique_id=723374557]
+script = ExtResource("1_muwn8")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1743456114]
+texture = ExtResource("1_af6lg")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=623367822]
+shape = SubResource("CapsuleShape2D_muwn8")

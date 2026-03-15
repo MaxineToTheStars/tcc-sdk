@@ -1,0 +1,58 @@
+[gd_scene format=3 uid="uid://bsfulsqxv82mw"]
+
+[ext_resource type="Texture2D" uid="uid://dvaescfnt0ub7" path="res://addons/tcc-sdk/assets/images/inventory_slot.png" id="1_bn6w3"]
+
+[node name="TsdkInventory" type="Control" unique_id=12750503]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="InventoryContainer" type="HBoxContainer" parent="." unique_id=1196671322]
+layout_mode = 1
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="InventorySlot1" type="TextureRect" parent="InventoryContainer" unique_id=1474098484]
+layout_mode = 2
+texture = ExtResource("1_bn6w3")
+stretch_mode = 3
+
+[node name="InventoryIcon" type="TextureRect" parent="InventoryContainer/InventorySlot1" unique_id=975665799]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+stretch_mode = 3
+
+[node name="InventorySlot2" type="TextureRect" parent="InventoryContainer" unique_id=2038874103]
+layout_mode = 2
+texture = ExtResource("1_bn6w3")
+stretch_mode = 3
+
+[node name="InventoryIcon" type="TextureRect" parent="InventoryContainer/InventorySlot2" unique_id=1294459737]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+stretch_mode = 3
+
+[node name="InventorySlot3" type="TextureRect" parent="InventoryContainer" unique_id=1378416135]
+layout_mode = 2
+texture = ExtResource("1_bn6w3")
+stretch_mode = 3
+
+[node name="InventoryIcon" type="TextureRect" parent="InventoryContainer/InventorySlot3" unique_id=1912823707]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+stretch_mode = 3
